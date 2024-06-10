@@ -1,0 +1,56 @@
+/* components/HomePage.module.css */
+
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4rem 2rem;
+  height: 100vh;
+}
+
+.content {
+  max-width: 50%;
+}
+
+.content h1 {
+  color: #f04e23;
+}
+
+.content h2 {
+  font-size: 2.5rem;
+  font-weight: 500;
+  color: #333;
+}
+
+.content h3 {
+  font-size: 2rem;
+  color: #28a745;
+}
+
+.content p {
+  margin-top: 1rem;
+  font-size: small;
+  letter-spacing: 1px;
+  line-height: 2rem;
+  color: #666;
+}
+
+.bookNow {
+  background: #f04e23;
+  color: #fff;
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  cursor: pointer;
+  margin: 2rem 0;
+  -webkit-clip-path: polygon(10% 0, 100% 0, 100% 90%, 90% 100%, 0 100%, 0 30%);
+  clip-path: polygon(10% 0, 100% 0, 100% 90%, 90% 100%, 0 100%, 0 30%);
+}
+.bookNow:hover {
+  background: #e0431d;
+}
+
+.image img {
+  margin-top: 8rem;
+  width: 700px;
+}

@@ -1,0 +1,55 @@
+/* components/Navbar.module.css */
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  z-index: 1000;
+}
+
+.logo img {
+  margin-top: 10px;
+  width: 120px;
+}
+
+.navLinks {
+  display: flex;
+  list-style: none;
+}
+
+.navLinks li {
+  margin: 0 1rem;
+}
+
+.navLinks a {
+  text-decoration: none;
+  color: #333;
+}
+
+.navLinks a:hover {
+  color: #f04e23;
+  font-weight: bold;
+}
+
+.socailIcons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.socailIcons img {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #1baa4b;
+  border-radius: 50%;
+  margin: 0 1rem;
+}
+
+.line {
+  width: 10rem;
+  background-color: #1baa4b;
+  height: 1px;
+}
